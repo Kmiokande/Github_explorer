@@ -53,7 +53,8 @@
       {
         "devDependencies": true
       }
-    ]
+    ],
+    "camelcase": "off"
   },
   "settings": {
     "import/resolver": {
