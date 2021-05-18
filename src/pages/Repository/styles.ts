@@ -55,6 +55,7 @@ export const RepositoryInfo = styled.section`
     display: flex;
     list-style: none;
     margin-top: 40px;
+    margin-bottom: 64px;
 
     li {
       & + li {
@@ -77,7 +78,7 @@ export const RepositoryInfo = styled.section`
 `;
 
 export const Issues = styled.div`
-  margin-top: 80px;
+  margin-top: 16px;
 
   a {
     background: #fff;
@@ -90,10 +91,6 @@ export const Issues = styled.div`
     display: flex;
     align-items: center;
     transition: transform 0.2s;
-
-    & + a {
-      margin-top: 16px;
-    }
 
     &:hover {
       transform: translateX(10px);
